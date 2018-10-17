@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Jan 09 20:46:52 2017
+Created on Mon Jan 09  2017
 
-@author: suny2
+
 """
 import scipy.io as sio
 import numpy as np
@@ -29,7 +29,7 @@ for k in xrange(len(wordlist)):
 
 times = range(180,200) # total number of time points (20/range(27) for ngram/nyt)
 
-emb_all = sio.loadmat('results/emb_frobreg10_diffreg50_symmreg10_iter10.mat')
+emb_all = sio.loadmat('results/embeddings.mat')
 
 #%%
 
