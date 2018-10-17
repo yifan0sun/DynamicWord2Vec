@@ -3,7 +3,6 @@
 """
 Created on Thu Nov 10 13:10:42 2016
 
-@author: raon
 """
 
 # main script for time CD 
