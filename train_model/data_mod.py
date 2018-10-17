@@ -2,23 +2,14 @@
 # -*- coding: utf-8 -*-
 """
 Created on Tue Jan 17 20:23:29 2017
-
-@author: raon
-"""
-
-'''
 script to generate subsampled datasets etc
-'''
+"""
 
 import scipy.sparse as ss
 import numpy as np
 import pandas as pd
 import numpy.random as nr
 
-
-'''
-/home/yaoz/DynamicWord2Vec/data/NYTimesV2/wordPairPMI_<0-27>.csv
-'''
 
 
 def yearmap(T):
@@ -91,11 +82,9 @@ def get_id(vocab,word):
 
 if __name__=='__main__':
     
-    fhead = '/Users/raon/Desktop/Projects_2016/GlobalEmbedding/Timeseries/data/wordPairPMI_'
-#    fhead = '/home/yaoz/DynamicWord2Vec/data/NYTimesV2/wordPairPMI_'
+    fhead = 'wordPairPMI_'
     v = 20936
-#    vocabfile = '/home/yaoz/DynamicWord2Vec/data/NYTimesV2/wordIDHash.csv'
-    vocabfile = '/Users/raon/Desktop/Projects_2016/GlobalEmbedding/Timeseries/data/wordIDHash.csv'
+    vocabfile = 'wordIDHash.csv'
     
     T = range(27)
     
