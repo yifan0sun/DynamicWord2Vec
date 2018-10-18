@@ -12,6 +12,7 @@ Files:
  To save space, each year's embedding is saved separately. When used in visualization code, first merge to 1 embedding file.
 /train_model
  - contains code used for training our embeddings
+ - data file download: https://www.dropbox.com/s/tzkaoagzxuxtwqs/data.zip?dl=0
   /train_model/train_time_CD_smallnyt.py
    - main training script
   /train_model/util_timeCD.py
@@ -19,6 +20,7 @@ Files:
    
 /other_embeddings
  - contains code for training baseline embeddings
+ - data file download: https://www.dropbox.com/s/tzkaoagzxuxtwqs/data.zip?dl=0
    /other_embeddings/staticw2v.py
     - static word2vec (Mikolov et al 2013)
    /other_embeddings/aw2v.py
@@ -35,6 +37,7 @@ Files:
     
 /distorted_smallNYT
  - code for robust experiment
+ - data file download: https://www.dropbox.com/s/6q5jhhmxdmc8n1e/data.zip?dl=0
  
 
 
