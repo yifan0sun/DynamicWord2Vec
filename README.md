@@ -7,9 +7,11 @@ https://dl.acm.org/citation.cfm?id=3159703
 https://arxiv.org/abs/1703.00607
 
 Files:
+
 /embeddings
  - embeddings in loadable MATLAB files. 0 corresponds to 1990, 1 to 1991, ..., 19 to 2009
  To save space, each year's embedding is saved separately. When used in visualization code, first merge to 1 embedding file.
+ 
 /train_model
  - contains code used for training our embeddings
  - data file download: https://www.dropbox.com/s/tzkaoagzxuxtwqs/data.zip?dl=0
