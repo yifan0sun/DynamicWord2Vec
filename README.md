@@ -41,6 +41,5 @@ Files:
  - code for robust experiment
  - data file download: https://www.dropbox.com/s/6q5jhhmxdmc8n1e/data.zip?dl=0
  
-
-
-
+/misc
+ - contains general statistics and word hash file
