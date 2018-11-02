@@ -14,7 +14,7 @@ Files:
  
 /train_model
  - contains code used for training our embeddings
- - data file download: https://www.dropbox.com/s/tzkaoagzxuxtwqs/data.zip?dl=0
+ - data file download: https://www.dropbox.com/s/nifi5nj1oj0fu2i/data.zip?dl=0
  
     /train_model/train_time_CD_smallnyt.py
      - main training script
