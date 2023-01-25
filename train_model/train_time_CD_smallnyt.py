@@ -112,7 +112,7 @@ if __name__=='__main__':
                 ind = b_ind[j]
                 ## UPDATE V
                 # get data
-                pmi_seg = pmi[:,ind].todense()
+                pmi_seg = pmi[:,ind]
                 
                 if t==0:
                     vp = np.zeros((len(ind),r))
